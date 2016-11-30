@@ -1,0 +1,16 @@
+.card-content {
+  height: 140px;
+  overflow: hidden;
+}
+
+.card-actions {
+  height: 34px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .card-content {
+    height: 100px;
+    overflow: hidden;
+  }
+}

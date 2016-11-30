@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Posts</h1>
+
+<div class="row">
+  <div class="col-xs-12">
+    <%= button_link_to 'New Post', new_post_path %>
+  </div>
+</div>
+
+</br>
+
+<% cache @posts do %>
+  <% paginate @posts -%>
+
+  <div class="row">
+    <%= render @posts %>
+  </div>
+
+  <%= paginate @posts %>
+<% end %>
