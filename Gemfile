@@ -54,7 +54,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'kaminari', github: 'amatsuda/kaminari', branch: :master
 
 # View
-gem 'wysiwyg-rails'
+gem 'bootstrap-wysihtml5-rails'
 gem 'bootstrap-sass'
 
 # View Model
