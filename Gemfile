@@ -62,3 +62,6 @@ gem 'active_decorator'
 
 # Mocking
 gem 'faker'
+
+# Authentication
+gem 'devise'
